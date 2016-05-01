@@ -1,0 +1,92 @@
+% See http://rpi.edu/dept/arc/training/latex/resumes/
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+\usepackage{color}
+\usepackage[normalem]{ulem}
+\usepackage{url}
+\usepackage{hyperref}
+
+
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf PAUL VON SCHROTTKY}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{paulvonschrottky@gmail.com}
+ \moveleft.5\hoffset\centerline{https://github.com/guarani}
+ \moveleft.5\hoffset\centerline{http://stackoverflow.com/users/1305067/paulvs}
+ \moveleft.5\hoffset\centerline{https://www.linkedin.com/in/paulvs}
+ \moveleft.5\hoffset\centerline{Skype: paulvonschrottky, Tel: +595 981767090}
+ 
+\DeclareUrlCommand\ULurl{%
+  \renewcommand\UrlFont{\ttfamily\color{blue}}%
+  \renewcommand\UrlLeft{\uline\bgroup}%
+  \renewcommand\UrlRight{\egroup}}
+
+\begin{resume}
+
+\section{EXPERIENCE} {\sl iOS Engineer} \hfill Apr 13' - Present \\
+                Mobile Development, Roshka Squadra, Paraguay  
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Coded and shipped six personal and business banking apps on iOS for Spanish, Brazilian and Paraguayan banks (top three banks in Paraguay)
+                 \item Both Objective-C and Swift apps in production
+                 \item Lead cross-platform development team for iOS and Android apps (7 person team)
+                 \item Recognized need for, and coded an in-house iOS library to provide native navigation to hybrid apps
+         	\item Both iPhone and iPad-only apps in production
+		\item Regularly meet with clients to define needs, plan sprints, upload apps
+		\item Ship app updates regularly to multiple apps with 2+ years in production
+                 \item Manage multiple iTunes Connect and Apple Developer accounts
+                \end{itemize}
+ 
+                {\sl Engineer Intern} \hfill            Feb 12' - Jul 12' \\
+                Firmware Department, Biamp Systems, Australia 
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Coded firmware for networked paging controller
+                 \item Interfaced with Atmel microprocessor,
+                  OLED display, capacitive-touch sensors and Ethernet network chip to allow the user to 
+                  control volume (via an iPod-style click wheel) and change channels via a menu-style interface 
+                  \item Designing and building PCB boards, creating BOMs, ordering materials
+                 \end{itemize} 
+                   
+\section{EDUCATION} {\sl Bachelor of Electronic and Computer Engineering}
+                      % \sl will be bold italic in New Century Schoolbook (or
+	              % any postscript font) and just slanted in
+		      %	Computer Modern (default) font
+		\begin{itemize}
+                \item Advanced Digital Signal Processing (spoken word recognizer 
+                in MATLAB \& C)
+                \item Real-Time Systems (coded a Space Invaders clone in Verilog
+                 and C on an FPGA with custom keyboard and monitor controller)
+                 \end{itemize}
+
+\section{PERSONAL APPS}
+		D\'onde Cargo: \ULurl{https://goo.gl/qTMmkK}\\
+
+
+\section{GITHUB}       
+	\begin{itemize} 
+	    \item Collapsible Navigation Bar (Swift Extension) \ULurl{https://goo.gl/fN22WR}
+	    \item HN Hiring Extension: \ULurl{https://goo.gl/uao57G}, Store: \ULurl{https://goo.gl/rVtQFy}
+	    \item Paged Table View (Swift Extension): \ULurl{https://goo.gl/MgJ4SX}
+	    \item Conway's Game of Life (JavaScript): \ULurl{https://goo.gl/MnHXXt}
+	\end{itemize}
+                
+\section{SKILLS} 
+	\begin{itemize}
+	\item Swift (1.5 yrs), Obj-C (3 yrs), C (4 yrs), JavaScript (3 yrs), Java (1 yr)
+	\item Xcode (3 yrs), Vim (4 yrs), Android Studio (2 yrs), git (3 yrs), Atlassian products (2 years) 
+	\end{itemize}
+
+\end{resume}
+\end{document}
+
+
+
+
