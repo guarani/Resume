@@ -1,0 +1,138 @@
+% See http://rpi.edu/dept/arc/training/latex/resumes/
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+\usepackage{color}
+\usepackage[normalem]{ulem}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{graphicx}
+
+
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+\vspace*{0.05in}
+\hfill 
+\smash{\includegraphics[width=2.5cm]{profile_photo.jpg}}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf PAUL VON SCHROTTKY}
+ 
+
+
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+\moveleft.5\hoffset\centerline{C.I.: 7779418}
+\moveleft.5\hoffset\centerline{paulvonschrottky@gmail.com}
+\moveleft.5\hoffset\centerline{Skype: paulvonschrottky, Tel: (0981)767-090}
+
+\DeclareUrlCommand\ULurl{%
+  \renewcommand\UrlFont{\ttfamily\color{blue}}%
+  \renewcommand\UrlLeft{\uline\bgroup}%
+  \renewcommand\UrlRight{\egroup}}
+
+\begin{resume}
+
+\section{EXPERIENCIA LABORAL} {\sl Desarrollador iOS} \hfill Abr 13' - Presente \\
+                Desarrollo M\'ovil, Roshka Squadra, Paraguay  
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Desarroll\'o y public\'o seis aplicaciones m\'oviles bancarias para tres de los bancos m\'as grandes del Paraguay
+                 \item Experiencia con los lenguajes de programaci\'on: Objective-C, Swift, JavaScript, C, Java y Go
+                 \item Jefe de equipo (6 desarrolladores iOS y Android) desde el 2014
+         	\item Desarrollo de aplicaciones para iPhone e iPad
+		\item Contacto regular con clientes para definir proyectos, entregas y sprints
+		\item Mantenimiento de aplicaciones bancarias con m\'as que tres a\~nos en las tiendas App Store y Google Play
+                 \item Gesti\'on de cuentas Apple iTunes Connect y Google Play para clientes bancarias
+                 \item Charlas educativas sobre desarrollo m\'ovil y electr\'onica
+                 \item Implementaci\'on en aplicaciones m\'oviles de: Pago de servicios, transferencia entre cuentas, transferencia SIPAP, pago de tarjeta, pago de pr\'estamo, extracto de cuenta, movimiento de tarjeta, solicitaci\'on de productos, ahorro programado, gesti\'on de seguros, cambio de claves
+                 \item Experiencia con notificaciones push, bases de datos m\'oviles, b\'usqueda con sugerencias y historial, mapas, animaciones, pinning de certificados SSL, teclados seguros
+                 \item Experiencia con productos Google: App Engine, Places API, Directions API, Datastore, y Google Play Store 
+                 \end{itemize}
+ 
+                {\sl Pasant\'ia Ingenier\'ia Electr\'onica} \hfill            Feb 12' - Jul 12' \\
+                Departamento de Firmware, Biamp Systems, Australia 
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Codific\'o firmware para un controlador de sistema de altavoz, integraci\'on con pantalla OLED, controles t\'actiles e interfaz Ethernet
+                 \end{itemize} 
+                 
+                 \section{DATOS PERSONALES} 
+	\begin{itemize}
+	\item Estado Civil: Soltero
+	\item Edad: 26 a\~nos
+	\item Direcci\'on: Adela Speratti c/ Insaurralde, Fernando de la Mora
+	\item Nacionalidad: Australiana con Residencia Permanente Paraguaya
+	\end{itemize}
+	
+	\section{HABILIDADES} 
+	\begin{itemize}
+	\item Swift (1.5 a\~nos), Obj-C (3 a\~nos), C (4 a\~nos), JavaScript (3 a\~nos), Java (1 a\~no)
+	\item Xcode (3 a\~nos), Vim (4 a\~nos), Android Studio (2 a\~nos), git (3 a\~nos), productos de gesti\'on de software Atlassian (3 a\~nos) 
+	\end{itemize}
+                   
+\section{EDUCACI\'ON} {\sl Ingenier\'ia Electr\'onica e Inform\'atica} \hfill            08' - 12' \\
+                Griffith University\\Brisbane, Australia
+		\begin{itemize}
+                \item Procesamiento de se\~nales digitales en MATLAB \& C
+                \item Sistemas de comunicaci\'on avanzadas - Dise\~no de antenas, l\'ineas de transmisi\'on y amplificadores
+                \item Dise\~no de Sistemas Real-Time (clon de juego Space Invaders en Altium Nanoboard FPGA usando Verilog y C con controlador de video y teclado)
+                 \end{itemize}
+                Bachillerato  \hfill 05' - 07' \\
+                Victoria Point State High School\\Brisbane, Australia
+
+
+
+
+
+\section{APLICACIONES PROPIAS}
+		D\'onde Cargo: \ULurl{https://goo.gl/qTMmkK}
+
+\section{GITHUB}       
+	\begin{itemize} 
+	    \item Plug-in Google Chrome HN: \ULurl{https://goo.gl/uOR3Xf}, \ULurl{https://goo.gl/JkrntW}
+	    \item Barra de Navegación iOS (Swift): \ULurl{https://goo.gl/QbaQgj}
+	    \item Problema de la Cena de Los Fil\'osofos (hilos, Swift) \ULurl{https://goo.gl/bGXjXI}
+	    \item Juego de la Vida Conway (JavaScript): \ULurl{https://goo.gl/MnHXXt}
+	\end{itemize}
+            
+	
+\section{IDIOMAS} 
+	\begin{itemize}
+	\item Ingl\'es (lengua materna)
+	\item Espa\~nol avanzado
+	\item Portugu\'es intermedio
+	\item Chino Mandar\'in b\'asico
+	\end{itemize}
+	
+\section{SITIOS} 
+	\begin{itemize}
+	\item Stackoverflow: \ULurl{http://stackoverflow.com/users/1305067/paulvs}
+	\item GitHub: \ULurl{https://github.com/guarani}
+	\item LinkedIn: \ULurl{https://www.linkedin.com/in/paulvs}
+	\end{itemize}
+	
+\section{REFERENCIAS PERSONALES} 
+	\begin{itemize}
+	\item Lic. Maggi Fiorella Jara\\
+	(0981)969-629 / 556-326\\
+	maggi.f.jara@bancognb.com.py
+	\item Dra. Cecilia Silvera de Piris\\
+	(0982)472-854 / (0971)255-498\\
+	
+	\end{itemize}
+	
+\section{REFERENCIAS LABORALES} 
+	\begin{itemize}
+	\item Referencias disponibles bajo solicitud
+		\end{itemize}
+	
+\end{resume}
+\end{document}
+
+
+
+
