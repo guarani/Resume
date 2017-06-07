@@ -1,0 +1,96 @@
+% See http://rpi.edu/dept/arc/training/latex/resumes/
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+\usepackage{color}
+\usepackage[normalem]{ulem}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{amssymb}
+
+
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf PAUL VON SCHROTTKY}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{paulvonschrottky@gmail.com}
+ \moveleft.5\hoffset\centerline{https://github.com/guarani}
+ \moveleft.5\hoffset\centerline{http://stackoverflow.com/users/1305067/paulvs}
+ \moveleft.5\hoffset\centerline{https://www.linkedin.com/in/paulvs}
+ \moveleft.5\hoffset\centerline{Skype: paulvonschrottky, Tel: +595 981767090}
+ 
+\DeclareUrlCommand\ULurl{%
+  \renewcommand\UrlFont{\ttfamily\color{blue}}%
+  \renewcommand\UrlLeft{\uline\bgroup}%
+  \renewcommand\UrlRight{\egroup}}
+
+\begin{resume}
+
+\section{EXPERIENCE} {\sl Lead iOS Engineer} \hfill Apr 13' - Present \\
+                Mobile Development, Roshka Squadra, Paraguay  
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \renewcommand\labelitemi{\tiny$\blacksquare$}
+                 \item Coded and shipped six personal and business banking apps on iOS for Spanish, Brazilian and Paraguayan banks (top three banks in Paraguay)
+                 \item Both Objective-C and Swift native apps in production
+                 \item Strong JavaScript experience on mobile, hybrid development using custom frameworks, as well as with Ionic and jQuery Mobile in Cordova
+                 \item Lead cross-platform team (8 developers) for iOS and Android 
+                 \item Recognized need for, and coded in-house iOS library to provide native navigation to hybrid apps
+         	\item iPhone, iPad and universal apps in the App Store
+		\item Regularly meet with clients to define needs, plan sprints, upload apps
+		\item Ship app updates regularly to multiple apps with 3+ years in production
+                 \item Manage multiple iTunes Connect and Apple Developer accounts
+                 \item Experience with Touch ID, certificate pinning, custom keyboards, push notifications, GCD, Core Data, table view search suggestions \& history, Google Map custom animations, advanced auto layout, synchronous web view to native comms, Xcode cmd-line builds, custom side menus, and custom view drawing.
+                 
+                 \end{itemize}
+ 
+                {\sl Engineer Intern} \hfill            Feb 12' - Jul 12' \\
+                Firmware Department, Biamp Systems, Australia 
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \renewcommand\labelitemi{\tiny$\blacksquare$}
+                 \item Coded firmware for networked paging controller with display and touch controls
+                 \end{itemize} 
+                 
+\section{APP STORE}       
+	\begin{itemize} 
+            \renewcommand\labelitemi{\tiny$\blacksquare$}
+	    \item BBVA Paraguay (iPhone, Obj-C): \hfill\ULurl{https://goo.gl/kkevfK}
+	    \item BBVA Business Paraguay (iPad, Obj-C): \hfill\ULurl{https://goo.gl/BfTVRu}
+	    \item Itaú tokpag (iPhone, Obj-C): \hfill\ULurl{https://goo.gl/gfVveB}
+	    \item Itaú Paraguay (Universal, Obj-C, web): \hfill\ULurl{https://goo.gl/4Vh5il}
+	    \item Bank Familiar Paraguay (iPhone, Swift): \hfill\ULurl{https://goo.gl/yG2sFG}
+	    \item Financiera El Comercio (iPhone, Swift): \hfill\ULurl{https://goo.gl/i1demZ}
+	\end{itemize}
+                   
+\section{EDUCATION} {\sl Bachelor of Electronic and Computer Engineering}\hfill            Feb 08' - Nov 12' \\
+		Griffith University, Australia
+
+
+                
+\section{SKILLS} 
+	\begin{itemize}
+        \renewcommand\labelitemi{\tiny$\blacksquare$}
+	\item Swift (2.5), Obj-C (3.5), JavaScript (4), C (4), Java (1)
+	\item Xcode (4), Vim (4), Android Studio (2), git (4), JIRA (3)
+	\end{itemize}
+	
+\section{GITHUB}       
+	\begin{itemize} 
+             \renewcommand\labelitemi{\tiny$\blacksquare$}
+	    \item Dining Philosophers Problem in Swift: \hfill\ULurl{https://goo.gl/bGXjXI}
+	    \item HN Hiring Extension: \hfill\ULurl{https://goo.gl/uOR3Xf}
+	    \item Conway's Game of Life (JavaScript): \hfill\ULurl{https://goo.gl/MnHXXt}
+	\end{itemize}
+
+\end{resume}
+\end{document}
+
+
+
+
